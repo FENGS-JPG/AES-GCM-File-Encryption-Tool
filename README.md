@@ -22,3 +22,27 @@
 
 ```bash
 python gui.py
+
+---
+
+## 命令行版（CLI）
+
+### 启动方法（开发环境）：
+
+```bash
+python cli.py --help
+
+## 加密说明
+
+- 使用 AESGCM（带认证的加密）进行内容保护
+- 解密必须使用相同工具或密码，无法暴力破解
+- 每次加密生成新的 Salt 和 Nonce
+
+## 安装依赖（开发者）
+
+```bash
+pip install -r requirements.txt
+
+
+
+## 本项目开源仅作学习交流，可自由使用、修改、发布。
