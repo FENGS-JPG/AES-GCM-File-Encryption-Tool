@@ -16,7 +16,7 @@
 
 ---
 
-## 图形界面版（GUI）
+## 图形和命令行界面版（GUI与CLT）
 
 ### 启动方法（开发环境）：
 
@@ -27,13 +27,10 @@ python gui.py
 
 启动方法（开发环境）：
 
-```bash
 python cli.py --help
-
 
 安装依赖（开发者）
 
-```bash
 pip install -r requirements.txt
 
 
